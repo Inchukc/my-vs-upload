@@ -14,9 +14,9 @@ public class GuessNumber{
                 sc.close();
                 return;//we have to exit if u guess correctly
             }else if(guess>number){
-                System.out.println("your guess is higher: "+ number);
+                System.out.println("your guess is higher");
             }else{
-                System.out.println("your guess is lower:  "+ guess);
+                System.out.println("your guess is lower");
             }
         }
         System.out.println("all attempts are exhausted, the game reveals the correct number:"+number);
